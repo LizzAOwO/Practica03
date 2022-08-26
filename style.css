@@ -12,14 +12,14 @@
 .header{
     background-color: rgb(249, 152, 235);
     display: flex;
-    flex-flow: column-reverse;
+    flex-flow: column nowrap;
 }
 
 .menu{
     background-color: beige;
     display: flex;
-    flex-flow: row-reverse;
-    height: 10px;
+    flex-flow: row nowrap;
+    height: 100px;
     align-items: center;
 }
 
@@ -42,15 +42,16 @@
     height: 30px;
 }
 
-.text-principal{
-    h1{
-        background-color: burlywood;
-    }
-    
+.texto-principal{
+    background-color: wheat;
+}
+
+h1{
+    background-color: burlywood;
 }
 
 .section{
-    background-color: cadetblue;
+    background-color: red;
 }
 
 .articulos{
@@ -73,5 +74,5 @@
     background-color: turquoise;
 }
 
-.
+
 
